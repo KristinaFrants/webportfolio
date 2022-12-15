@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import {useStateValue} from "../StateProvider";
 import { Link } from 'react-router-dom'
 
-function Product({id, title, icons, image, price, rating,header, play,description, description1,  description2,  description3, demolink,login, pass, features}) {
+function Product({id, title, icons, image, price, rating,header, play,description, description1,  description2,  description3, description4, demolink,login, pass, features}) {
     const [{basket}, dispatch] = useStateValue()
 
     const addToBasket = () => {
@@ -40,6 +40,7 @@ function Product({id, title, icons, image, price, rating,header, play,descriptio
                 description1: description1,
                 description2: description2,
                 description3: description3,
+                description4: description4,
                 login:login,
                 pass:pass,
                 features:features,
@@ -56,7 +57,7 @@ function Product({id, title, icons, image, price, rating,header, play,descriptio
             <div className="product__info">
                 <h3>{header}</h3>
                     <p>{title}</p>
-                    <p className="product__price">
+                    {/* <p className="product__price">
                         <small>$</small>
                         <strong>{price}</strong>
                     </p>
@@ -64,7 +65,7 @@ function Product({id, title, icons, image, price, rating,header, play,descriptio
                     {Array(rating).fill().map((_, i) => (
                         <p>⭐</p>
                     ))}
-                </div>
+                </div> */}
             </div>   
         </div> </Link>  
     )

@@ -54,17 +54,13 @@
         background-color: white;
         z-index: 1;
         padding: 20px;
-        margin-bottom: 2%;
+        margin: 0% 1% 2% 2%;
+        width: 47% !important;
     }
 
     .home__col3:hover{
         transform:translatey(-40px);
         box-shadow:0 30px 10px -10px #666;
-    }
-
-    .home__row3{
-    margin: 0% 1% 2% 2%;
-        
     }
 
     @media screen and (max-width: 600px){
