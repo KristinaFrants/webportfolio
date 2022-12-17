@@ -53,19 +53,16 @@ function Product({id, title, icons, image, price, rating,header, play,descriptio
            
             <img src={image}/> 
             {/* <Button onClick={addToBasket} variant="dark" size="sm">Add to Basket</Button> */}
-            {/* <Link onClick={addProd} to={"/eachProduct/" + id}>Show</Link> */}
+          
             <div className="product__info">
                 <h3>{header}</h3>
                     <p>{title}</p>
-                    {/* <p className="product__price">
-                        <small>$</small>
-                        <strong>{price}</strong>
-                    </p>
                 <div className="product__rating">
                     {Array(rating).fill().map((_, i) => (
-                        <p>⭐</p>
+                        <h3>✭</h3>
                     ))}
-                </div> */}
+                </div>
+                  <Link to={"/eachProduct/" + id}>Learn More</Link>
             </div>   
         </div> </Link>  
     )

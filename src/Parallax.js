@@ -4,23 +4,29 @@ import { Parallax} from "react-parallax";
 
 
 const insideStyles = {
-backgroundColor:"white",
+  backgroundColor:"rgba(255,255,255, 0.3)",
+  //opacity: 0.4,
   padding: 20,
   position: "absolute",
   top: "50%",
   left: "50%",
   transform: "translate(-50%,-50%)"
 };
+
+
+
 const image1 =
   "https://image.freepik.com/free-vector/colorful-background-with-abstract-style_23-2147821889.jpg";
 
 const ParallaxContainer = () => (
   <div style={{width:'100%',marginBottom:"10%"}}>
-    <Parallax bgImage={image1} strength={200}>
-    <div style={{ height: '500px', border: "15px solid white", borderRadius: "5px" }} />
+    <Parallax bgImage={image1} strength={250}>
+    <div style={{ height: '500px', borderRadius: "5px" }} />
      
-        <div style={insideStyles}>HTML inside the parallax
-        <p>Paragraph inside the block</p></div>
+        <div style={insideStyles}>
+        <h1>Paragraph inside the block</h1>
+        </div>
+
       
     </Parallax>
     {/* <h2>| | |</h2> */}

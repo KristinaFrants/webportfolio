@@ -1,23 +1,17 @@
 .header__logo{
     width: 40px !important;
     object-fit: contain;
-    color: white;
+    color: rgb(231, 224, 224);
  
  
 }
 
 .header__logo:hover{
-    color:#cd9042;
+    color:white;
 }
 
 
 .header{
-    display: flex;
-    height: 65px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    width: 100%;
     background:linear-gradient(-45deg, #23a6d5, #8f44ad,#46b39e,#34c7a5);
     animation: gradient 10s ease infinite;
 }
@@ -33,9 +27,6 @@
     
 }
 
-.header__link:hover{
-    color: #cd9042;
-}
 
 
 .header__option{
@@ -59,30 +50,12 @@
     padding: 4px 8px;
 }
 
-.header__optionBasket{
-    display: flex;
-    align-items: center;
-    color: rgb(14, 13, 13);
-    text-decoration: none !important;
-    margin:  5px 10px 0px 10px;
-}
-
-.header__basketCount{
-    margin:  0px 10px 0px 10px;
-    text-decoration: none !important;
-}
-
-.header__basketCount:hover{
-    color: #cd9042;
-}
-.header__optionBasket:hover{
-    color: #cd9042; 
-}
 
 
 
 .dropdown:hover .header__dropdown {
     display: block;
     border-radius: 5px;
+   
 
 }

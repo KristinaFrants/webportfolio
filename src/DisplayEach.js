@@ -13,15 +13,6 @@ function DisplayEach({id, icons, image, title, login, demolink, description, des
     const [{ eachProd }, dispatch] = useStateValue();
     const history = useHistory();
 
-    // const removeEach =() => {
-    //     //delite items from the basket
-    //     dispatch({
-    //         type: 'EMPTY_PRODUCT',
-    //         id: id,
-    //     }) 
-    //     history.replace('/home')  
-    //  }
-
     function showDemo() {
         const x = document.getElementById("demo");
             if (x.style.display === "none") {
@@ -33,41 +24,47 @@ function DisplayEach({id, icons, image, title, login, demolink, description, des
 
     return (
 
-        <div className="row">
-            <div className="displayEach__video col-4">
-                <iframe width="96%" height="240px" src={play}></iframe>
+        <div className="row" id="mobile_display">
+            <div className="displayEach__video col-xs-12 col-lg-4 col-md-4">
                 <div>
-                <Button className="displayEach__button mt-3" onClick={showDemo} variant="dark" size="sm">Demo Login</Button>
+                    <iframe width="96%" height="240px" src={play}></iframe>
+                </div>
+                
+                <div>
+                    <Button className="displayEach__button mt-3" onClick={showDemo} variant="dark" size="sm">Demo Login</Button>
                     <p className="mt-4" style={{display:"none"}} id="demo">
                         <i>Use these credentials to login:</i><br></br><hr></hr>
                         <i>Email :</i> <b>{login}</b><br></br>
                         <i>Pass :</i> <b>{pass}</b>
                     </p>
                 </div>
+
                 <hr></hr>
-                <h5 className="ml-2">Features:</h5>
-                <p style={{ 
-                marginTop:"1%", padding:"2%"}}>
-                    {features}</p>
+                <div>
+                    <h5 className="ml-2">Features:</h5>
+                    <p style={{ 
+                    marginTop:"1%", padding:"2%"}}>
+                        {features}</p>
+                </div>
+                
             </div>
 
-            <div className="displayEach col-7 ml-2 mr-4">
-            <div className="displayEach__info ">
-                <div className="displayEach__content mt-4 mb-4 ml-3">
-                <h2>{header}</h2>
-                <p className="mt-2 mb-4">{title}</p>
-                <a href={demolink}>View Demo</a>
+            <div className="displayEach col-xs-12 col-lg-7 col-md-7 ml-2 mr-4">
+                <div className="displayEach__info ">
+                    <div className="displayEach__content mt-4 mb-4 ml-3">
+                    <h2>{header}</h2>
+                    <p className="mt-2 mb-4">{title}</p>
+                    <a href={demolink}>View Demo</a>
+                    </div>
                 </div>
-            </div>
 
-            <div className="row ml-1 mr-1 mt-2">
-            {icons.map((img, index) => (
-                <div key={index} className="displayEach__icons col">
-                    <FontAwesomeIcon  className="roller__icon mt-2 " icon={img.IconDefinition}/><br/>
-                    <small className="mb-1">{img.iconName}</small>
-                </div>
-            ))}
-                  
+                <div className="row ml-1 mr-1 mt-2">
+                    {icons.map((img, index) => (
+                        <div key={index} className="displayEach__icons col">
+                            <FontAwesomeIcon  className="roller__icon mt-2 " icon={img.IconDefinition}/><br/>
+                            <small className="mb-1">{img.iconName}</small>
+                        </div>
+                    ))}
                 </div>
                 <div className="mt-2 ml-2">{description}</div><br></br>
                 <div className=" ml-2">{description1}</div><br></br>

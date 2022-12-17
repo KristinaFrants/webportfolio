@@ -9,9 +9,6 @@
 .displayEach__info{
     border: 2px solid lightgray;
     border-radius: 4px;
-    /* height: 50%;
-    width: 100%;
-    margin-top: 2%; */
     
 }
 
@@ -55,9 +52,3 @@ text-align: center;
     color:lightgray;
 
 }
-
-/* .displayEach__button:hover{
-    color:black !important;
-    background-color: ivory !important;
-    border: 1px solid #23a6d5 !important;
-} */

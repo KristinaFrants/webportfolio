@@ -1,20 +1,30 @@
 import React from 'react'
 import "./Home.css"
 import Product from "../src/profile/Product"
+import Button from 'react-bootstrap/Button'
 import productOne,  { iconsTwo, iconsTree, iconsFour, iconsFive } from './ProductIcons'
 
 
 
 
 function Home() {
+
+    function sendEmail ()
+    {
+        window.location = "mailto:cristina.chiticari@gmail.com";
+    }
+
     return (
 
         
         <div className="home ">
             <div className="home__container ">
-                <img  className="home__image" src="https://media.giphy.com/media/70avjXLCYWf5ZoJTWY/giphy.gif"/>
-            
-
+                <div  className="top-left-text">FullStack <br></br> Web Developer</div>
+                <div  className="top-left-subtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</div>
+                <Button className="hero_button" variant="outline-light" onClick = {sendEmail} >Start a Project</Button>
+                <img  className="home__image" src="https://img.freepik.com/free-photo/abstract-background-with-ink_1112-820.jpg?w=740&t=st=1671296200~exp=1671296800~hmac=555e4946e2665e4d89dbec49d0de918ef52030a9a64613479499456a887527d1"/>
+                
+             
             <div className="home__row row mx-auto">
                 
                 <div className="home__col">
@@ -35,7 +45,7 @@ function Home() {
                 SQLAlchemy DB gives an easy acces to all nesessary information directly in the terminal and allows to update tables quickly if needed."
                 login="margo@gmail.com" 
                 pass="12345"
-                // rating={5}
+                rating={5}
                 features="
                 💻  ReactJs
                 💻  React Hooks 
@@ -73,7 +83,7 @@ function Home() {
                 description1= "MVP of Informative blog platform, flexible can be suited for many different purposes. User side can create an account, update personal info, post/delete the feed, sort posts by user name, choose feed pages."
                 description2= "Back-end is written in SQLAlchemy wich allows admin side to control the tables, and can be shown in insomnia or postman."
                 description3="Google authentication and passsword reset are integrated via RESTfullAPI. Error webpages designed in case http call do not respond.Application is deployed and running on Herroku."
-                rating={4}
+                rating={5}
                 features="
                 💻  Python
                 💻  Flask
@@ -115,7 +125,7 @@ function Home() {
                 description1= "E-commerce is a online shopping  platform that allows users to choose, add, delete and buy desirable products."
                 description2= "Admin side can controll Posts, Delete and Update the products in the feed. This Online Shopping application is featured with search bar, navigation, pictures uploading, user orders history, google login, shopping cart, ect."
                 description3="Application is deployed on Firebase, wich allows to run a back-end in real time with real data. Firebase cloud functions has been used for Stripe payment integration, as well as gmail LogIn and easy 2steps SingIn authentication."
-                rating={4}
+                rating={5}
                 demolink="https://clone-8625e.web.app/"
                 icons={iconsTree}
                 login="kristy@test.com" 
@@ -179,7 +189,7 @@ function Home() {
                 💻  Heroku"
                 login="None" 
                 pass="None"
-                rating={4}
+                rating={5}
                 icons={iconsTwo}
                 />
                
@@ -194,7 +204,7 @@ function Home() {
                 demolink="https://fb-clone-365a0.web.app/"
                 play="https://res.cloudinary.com/div5hqtbd/video/upload/v1670191207/Screen_Recording_12-4-2022_4-56-07_PM_nobpmv.mp4"
                 image="https://res.cloudinary.com/div5hqtbd/image/upload/v1670684322/facebook.clone_qypytf.png"
-                rating={4}
+                rating={5}
                 description="A fullstack webapp build with React Js with Firebase Db."
                 description1= "This is a mvp, like Facebook social media website that takes users through the login process to the home page."
                 description2= "User passes autentification with Gmail to get on to the Profile page that pulls user's profile image and username from Google. On the home page user can add a post with text copy and image that is pulled from the URL. All the Posts are gathered into the feed wich user can interact with. Integrated with React widget for Facebook to allow displaying news from FB mainpage.  "
