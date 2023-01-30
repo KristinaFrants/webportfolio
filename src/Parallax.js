@@ -30,7 +30,7 @@ const ParallaxContainer = () => (
         <h1 style={{fontSize: "75px", color:"rgba(255, 255, 255, 0.788)", borderBottom:"2px solid rgba(247, 247, 247, 0.418)"}}>Welcome</h1><br></br>
         <h4 style={{color:"rgba(255, 255, 255)"}}>I am a FullStack WebDeveloper with background in SEO Marketing specializing in building exceptional digital experiences. </h4><br></br>
         <h5 style={{color:"rgba(255, 255, 255)", marginBottom:"25px"}}>I love to build things from scratch, keep up with AI and look for existance answers in metaphysics.</h5><br></br>
-        <Link className="Linkein" to="https://www.linkedin.com/in/cristina-chiticari-fullstack/">LinkedIn</Link>
+        <a href="https://www.linkedin.com/in/cristina-chiticari-fullstack/" className="Linkein" >LinkedIn</a>
         </div>
      
     </Parallax>
