@@ -12,16 +12,17 @@
         left: 25px;
         width: 45%;
         font-size: 65px;
-        color: rgb(77, 74, 74);
+        border-bottom: 2px solid black;
+        
 }
 
 .top-left-subtext{
     position: absolute;
-    top: 340px;
+    top: 350px;
     left: 25px;
     width: 45%;
     font-size: 20px;
-    color: rgb(77, 74, 74);
+ 
 }
 @media screen and (max-width: 668px) {
     .top-left-subtext {
@@ -31,10 +32,10 @@
 
 .hero_button{
     position: absolute;
-    top: 420px;
+    top: 425px;
     left: 25px;
     border-color: rgb(255, 255, 255) !important;
-    background-color: rgb(52, 103, 212) !important;
+    background-color: #46b39e !important;
 
 }
 
@@ -110,6 +111,20 @@
         }
     }
 
-    /* .youtube__video{
-        height: 400px;
-    } */
+    .Linkein{
+        background-color: #23a6d5;
+        color: white;
+        padding: 11px 30px;
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    .Linkein:hover{
+        background-color: rgb(255, 255, 255) !important;
+        border-color: rgb(255, 255, 255) !important;
+        color:black;
+    
+    }
+    

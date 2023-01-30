@@ -35,7 +35,7 @@ function NavigationBar() {
 
             <Nav.Link href= "/landing">
             <div className="header__right ">
-                Services
+                About
             </div>
           
             </Nav.Link>
