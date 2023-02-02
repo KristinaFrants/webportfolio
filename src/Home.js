@@ -21,7 +21,7 @@ function Home() {
             <div className="home__container ">
                 <div  className="top-left-text">FullStack <br></br> Web Developer</div>
                 <div  className="top-left-subtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</div>
-                <Button className="hero_button" variant="outline-light" onClick = {sendEmail} >Start a Project</Button>
+                <Button className="hero_button" variant="outline-light" onClick = {sendEmail} >Say Hello</Button>
                 <img  className="home__image" src="https://img.freepik.com/free-photo/abstract-background-with-ink_1112-820.jpg?w=740&t=st=1671296200~exp=1671296800~hmac=555e4946e2665e4d89dbec49d0de918ef52030a9a64613479499456a887527d1"/>
                 
              

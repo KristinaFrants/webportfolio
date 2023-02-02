@@ -48,7 +48,7 @@ function NavigationBar() {
           <Nav>
            
             <Nav.Link eventKey={2}>
-              <Button className="startAproject__button" variant="outline-light" onClick = {sendEmail} >Start a Project</Button>
+              <Button className="startAproject__button" variant="outline-light" onClick = {sendEmail} >Connect</Button>
  
             </Nav.Link>
           </Nav>

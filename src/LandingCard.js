@@ -13,8 +13,7 @@ let TextStyle = {
 	float: "right",
 	width: "100%",
 	fontColor: "black",
-	textAlign: "right",
-	fontFamily: "Playfair Display, serif "
+	textAlign: "left",
 };
 
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1];
@@ -40,18 +39,21 @@ export const LandingCard = () => {
 					<div className="wrapperImg mt-4 ">
 						<div id="slide" className="w-100">
 							<h3
-								style={{ textAlign: "right", fontFamily: "Playfair Display, serif", borderBottom: "3px solid black" }}
+								style={{ textAlign: "left", borderBottom: "3px solid black" }}
 								className="headerStyle mb-4">
-								Customized Packages That Would Make Your Business Raise To The Top
+								Something to Know About Me
 							</h3>
 							<p style={TextStyle}>
 								{" "}
-								The latest figures shows that 80 million European households have a pet. As this figure
-								grows, so too does their role in peoples lives. Pets provide companionship, affection
-								and protection and unique bonds are formed with owners. They provide us with
-								companionship but also with emotional support, reduce our stress levels, sense of
-								loneliness and help us to increase our social activities and add to a childs self-esteem
-								and positive emotional development.
+								<h5>Hello there, </h5>
+								my name is Cristina and I'm a fullstack Web Developer based in sunny Hollywood, Florida. <br></br>
+								I started my journey in IT back it 2012, when I traveled the World and decide to write a travel blog with a tour hacks.
+								The first thing that I come up with, was trying editing custom Wordpress themes and it ended up for me as Digital Marketer/SEO 
+								optimization specialist in small StartUp.<br></br>
+								At today's point I never stopped learning and thruthfully enjoying my Dev journey with strong goal to create nice digital experiences 
+								and exlusive products.
+								Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up company 
+								and recenly freelance white balancing between my toddler and small projects.
 							</p>
 						</div>
 					</div>
