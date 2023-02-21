@@ -41,7 +41,7 @@ export const LandingCard = () => {
 							<h3
 								style={{ textAlign: "left", borderBottom: "3px solid black" }}
 								className="headerStyle mb-4">
-								Something to Know About Me
+								SOMETHING TO KNOW ABOUT ME
 							</h3>
 							<p style={TextStyle}>
 								{" "}
@@ -50,10 +50,10 @@ export const LandingCard = () => {
 								I started my journey in IT back it 2012, when I traveled the World and decide to write a travel blog with a tour hacks.
 								The first thing that I come up with, was trying editing custom Wordpress themes and it ended up for me as Digital Marketer/SEO 
 								optimization specialist in small StartUp.<br></br>
-								At today's point I never stopped learning and thruthfully enjoying my Dev journey with strong goal to create nice digital experiences 
+								At today's point I never stopped learning by attending Bootcamp, Univestity and different IT Courses. I thruthfully enjoy my Dev journey with strong goal to create nice digital experiences 
 								and exlusive products.
 								Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up company 
-								and recenly freelance white balancing between my toddler and small projects.
+								and recenly freelancing while balancing between my toddler and small dev projects.
 							</p>
 						</div>
 					</div>

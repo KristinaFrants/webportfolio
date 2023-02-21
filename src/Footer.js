@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faPhone, faPrint } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGooglePlus, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGooglePlus, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
 function Footer() {
@@ -17,10 +17,9 @@ function Footer() {
     <div className="row text-center text-md-left mt-3 pb-3">
       {/* Grid column */}
       <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 className="text-uppercase mb-4 font-weight-bold">Company name</h6>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
+        <h6 className="text-uppercase mb-4 font-weight-bold">FullStack Developer</h6>
+        <p>This website were Completely done by me from Scratch. The Website is a Portfolio that Represents my Colletion of Webapps
+          as an Example of my Expirience with Wrighting Code, Deploy and manage SMM. </p>
       </div>
       {/* Grid column */}
       <hr className="w-100 clearfix d-md-none" />
@@ -31,13 +30,13 @@ function Footer() {
           <Link to="/home">MDBootstrap</Link>
         </p>
         <p>
-          <Link to="#!">MDWordPress</Link>
+          <Link to="/home">ReactJs</Link>
         </p>
         <p>
-          <Link to="#!">BrandFlow</Link>
+          <Link to="/home">PythonFlask</Link>
         </p>
         <p>
-          <Link to="#!">Bootstrap Angular</Link>
+          <Link to="/home">NodeJs</Link>
         </p>
       </div>
       {/* Grid column */}
@@ -46,16 +45,16 @@ function Footer() {
       <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Useful links</h6>
         <p>
-          <a href="/home">Your Account</a>
+          <a href="https://www.linkedin.com/in/cristina-chiticari-fullstack/">LinkedIn</a>
         </p>
         <p>
-          <a href="#!">Become an Affiliate</a>
+          <a href="https://github.com/KristinaFrants">Github</a>
         </p>
         <p>
-          <a href="#!">Shipping Rates</a>
+          <a href="https://www.facebook.com/kristina.frants/">Facebook</a>
         </p>
         <p>
-          <a href="#!">Help</a>
+          <a href="https://slack.com/">Slack</a>
         </p>
       </div>
       {/* Grid column */}
@@ -64,13 +63,13 @@ function Footer() {
       <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
         <p>
-          <FontAwesomeIcon icon={faHome} className="mr-3" /> New York, NY 10012, US</p>
+          <FontAwesomeIcon icon={faHome} className="mr-3" /> Miami, FL 33009, US</p>
         <p>
-          <FontAwesomeIcon icon={faEnvelope} className=" mr-3" /> info@gmail.com</p>
+          <FontAwesomeIcon icon={faEnvelope} className=" mr-3" /> cristina.chiticari@gmail.com</p>
         <p>
-          <FontAwesomeIcon icon={faPhone} className=" mr-3" /> + 01 234 567 88</p>
+          <FontAwesomeIcon icon={faPhone} className=" mr-3" />contact for phone</p>
         <p>
-          <FontAwesomeIcon icon={faPrint} className="mr-3" /> + 01 234 567 89</p>
+          <FontAwesomeIcon icon={faPrint} className="mr-3" />contact for more</p>
       </div>
       {/* Grid column */}
     </div>
@@ -81,9 +80,9 @@ function Footer() {
       {/* Grid column */}
       <div className="col-md-7 col-lg-8">
         {/*Copyright*/}
-        <p className="text-center text-md-left">© 2020 Copyright:
-          <a href="https://mdbootstrap.com/">
-            <strong> MDBootstrap.com</strong>
+        <p className="text-center text-md-left">© 2023 Copyright:
+          <a href="https://github.com/KristinaFrants/">
+            <strong> Kristina Frants </strong>
           </a>
         </p>
       </div>
@@ -94,22 +93,22 @@ function Footer() {
         <div className="text-center text-md-right">
           <ul className="list-unstyled list-inline">
             <li className="list-inline-item">
-              <a className="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="https://www.facebook.com/kristina.frants/" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <FontAwesomeIcon icon={faFacebook} className="" />
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="btn-floating btn-sm rgba-white-slight mx-1">
-                <FontAwesomeIcon icon={faTwitter} className="" />
+              <a href="https://github.com/KristinaFrants/" className="btn-floating btn-sm rgba-white-slight mx-1">
+                <FontAwesomeIcon icon={faGithub} className="" />
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="https://mail.google.com/chat/" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <FontAwesomeIcon icon={faGooglePlus} className="" />
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="btn-floating btn-sm rgba-white-slight mx-1">
+              <a href="https://www.linkedin.com/in/cristina-chiticari-fullstack/" className="btn-floating btn-sm rgba-white-slight mx-1">
                 <FontAwesomeIcon icon={faLinkedin} className="fab fa-linkedin-in" />
               </a>
             </li>

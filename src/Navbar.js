@@ -8,7 +8,7 @@ import { auth } from "./firebase";
 import Button from 'react-bootstrap/Button'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFolderOpen, } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faFolderOpen, } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -17,7 +17,7 @@ function NavigationBar() {
 
     function sendEmail ()
 {
-    window.location = "mailto:xyz@abc.com";
+    window.location = "mailto:cristina.chiticari@gmail.com";
 }
 
   return (
@@ -25,7 +25,7 @@ function NavigationBar() {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="header">
         <Navbar.Brand >
                     <Link to="/home">
-                    <FontAwesomeIcon icon={faFolderOpen} className= "header__logo m-1"/>
+                    <FontAwesomeIcon icon={faBriefcase} className= "header__logo m-1"/>
                     </Link>
         </Navbar.Brand>
         <Navbar.Toggle />

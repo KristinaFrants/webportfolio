@@ -16,10 +16,10 @@ function DesignCards() {
 				<div className="face face2">
 					<div className="DesignCards__content">
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
-							veritatis provident at.
+							As a developer Im making sure to deliver a pixel perfect responcive design using HTML, CSS, Photoshop, InDesign,
+							Canva, ScreenRecorder and many more tools that can become handy in buildind an app.
 						</p>
-						<a href="#">Read More</a>
+						<a href="/home">Show More</a>
 					</div>
 				</div>
 			</div>
@@ -33,10 +33,10 @@ function DesignCards() {
 				<div className="face face2">
 					<div className="DesignCards__content">
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
-							veritatis provident at.
+							My most enjoyable part is create a clean, simple code with a variety of different languages, platforms,
+							frameworks, and content management systems such as JavaScript, React, Node, Bootstrap, JSON, WordPress ect.
 						</p>
-						<a href="#">Read More</a>
+						<a href="/home">Show More</a>
 					</div>
 				</div>
 			</div>
@@ -50,10 +50,10 @@ function DesignCards() {
 				<div className="face face2">
 					<div className="DesignCards__content">
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste
-							veritatis provident at.
+							Backend skills I used to create some digital producuts written in Python/Flask. Expirienced in creating DB with
+							MySql and SQLAlchemy Blueprints. Deploying on Firebase, Heroku, Git and more. 
 						</p>
-						<a href="#">Read More</a>
+						<a href="/home">Show More</a>
 					</div>
 				</div>
 			</div>
